@@ -1,0 +1,892 @@
+{
+    "BTCUSDT": {
+        "Open_time": 1774895220000,
+        "Close_time": 1774895279999,
+        "open": "66621.43000000",
+        "high": "66630.76000000",
+        "low": "66621.42000000",
+        "close": "66629.10000000",
+        "VolumeBTCUSDT": "2.49107000",
+        "Volume Quote": "68564.16233760"
+    },
+    "ETHUSDT": {
+        "Open_time": 1774895220000,
+        "Close_time": 1774895279999,
+        "open": "2034.65000000",
+        "high": "2034.90000000",
+        "low": "2034.53000000",
+        "close": "2034.54000000",
+        "VolumeETHUSDT": "42.51840000",
+        "Volume Quote": "10866.62374900"
+    },
+    "BNBUSDT": {
+        "Open_time": 1774895220000,
+        "Close_time": 1774895279999,
+        "open": "610.42000000",
+        "high": "610.58000000",
+        "low": "610.42000000",
+        "close": "610.53000000",
+        "VolumeBNBUSDT": "45.53700000",
+        "Volume Quote": "20690.45681000"
+    },
+    "PEPEUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.00000333",
+        "high": "0.00000333",
+        "low": "0.00000331",
+        "close": "0.00000332",
+        "VolumePEPEUSDT": "3720115265.00",
+        "Volume Quote": "7246.63718999"
+    },
+    "XRPUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "1.32790000",
+        "high": "1.32800000",
+        "low": "1.32770000",
+        "close": "1.32800000",
+        "VolumeXRPUSDT": "17416.10000000",
+        "Volume Quote": "3108.28400000"
+    },
+    "CHZUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.04264000",
+        "high": "0.04266000",
+        "low": "0.04264000",
+        "close": "0.04266000",
+        "VolumeCHZUSDT": "11979.00000000",
+        "Volume Quote": "270.54737000"
+    },
+    "BCHUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "463.10000000",
+        "high": "463.10000000",
+        "low": "462.90000000",
+        "close": "462.90000000",
+        "VolumeBCHUSDT": "1.46900000",
+        "Volume Quote": "645.95710000"
+    },
+    "SOLUSDT": {
+        "Open_time": 1774895220000,
+        "Close_time": 1774895279999,
+        "open": "82.77000000",
+        "high": "82.79000000",
+        "low": "82.76000000",
+        "close": "82.77000000",
+        "VolumeSOLUSDT": "1047.18400000",
+        "Volume Quote": "20036.43890000"
+    },
+    "COMPUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "17.28000000",
+        "high": "17.28000000",
+        "low": "17.28000000",
+        "close": "17.28000000",
+        "VolumeCOMPUSDT": "0.00000000",
+        "Volume Quote": "0.00000000"
+    },
+    "AVAXUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "8.79000000",
+        "high": "8.80000000",
+        "low": "8.78000000",
+        "close": "8.80000000",
+        "VolumeAVAXUSDT": "3459.93000000",
+        "Volume Quote": "29224.50080000"
+    },
+    "AAVEUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "97.12000000",
+        "high": "97.12000000",
+        "low": "97.08000000",
+        "close": "97.08000000",
+        "VolumeAAVEUSDT": "13.92200000",
+        "Volume Quote": "165.88096000"
+    },
+    "QNTUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "70.38000000",
+        "high": "70.41000000",
+        "low": "70.34000000",
+        "close": "70.34000000",
+        "VolumeQNTUSDT": "7.61000000",
+        "Volume Quote": "199.79751000"
+    },
+    "LTCUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "53.44000000",
+        "high": "53.44000000",
+        "low": "53.43000000",
+        "close": "53.44000000",
+        "VolumeLTCUSDT": "3.49300000",
+        "Volume Quote": "156.84640000"
+    },
+    "SUIUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.86220000",
+        "high": "0.86220000",
+        "low": "0.86150000",
+        "close": "0.86160000",
+        "VolumeSUIUSDT": "15486.90000000",
+        "Volume Quote": "2586.46889000"
+    },
+    "XLMUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.16830000",
+        "high": "0.16830000",
+        "low": "0.16830000",
+        "close": "0.16830000",
+        "VolumeXLMUSDT": "0.00000000",
+        "Volume Quote": "0.00000000"
+    },
+    "FETUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.22850000",
+        "high": "0.22860000",
+        "low": "0.22840000",
+        "close": "0.22850000",
+        "VolumeFETUSDT": "16369.60000000",
+        "Volume Quote": "3275.35163000"
+    },
+    "DOGEUSDT": {
+        "Open_time": 1774895220000,
+        "Close_time": 1774895279999,
+        "open": "0.09101000",
+        "high": "0.09106000",
+        "low": "0.09100000",
+        "close": "0.09106000",
+        "VolumeDOGEUSDT": "65063.00000000",
+        "Volume Quote": "5803.80511000"
+    },
+    "RSRUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.00156300",
+        "high": "0.00156300",
+        "low": "0.00156300",
+        "close": "0.00156300",
+        "VolumeRSRUSDT": "0.00000000",
+        "Volume Quote": "0.00000000"
+    },
+    "TRXUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.31930000",
+        "high": "0.31930000",
+        "low": "0.31920000",
+        "close": "0.31930000",
+        "VolumeTRXUSDT": "7504.60000000",
+        "Volume Quote": "1768.53884000"
+    },
+    "LRCUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.02134000",
+        "high": "0.02134000",
+        "low": "0.02134000",
+        "close": "0.02134000",
+        "VolumeLRCUSDT": "0.00000000",
+        "Volume Quote": "0.00000000"
+    },
+    "SCUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.00090100",
+        "high": "0.00090100",
+        "low": "0.00090100",
+        "close": "0.00090100",
+        "VolumeSCUSDT": "16900.00000000",
+        "Volume Quote": "0.00000000"
+    },
+    "DGBUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.00399000",
+        "high": "0.00399000",
+        "low": "0.00399000",
+        "close": "0.00399000",
+        "VolumeDGBUSDT": "2026.60000000",
+        "Volume Quote": "8.08613400"
+    },
+    "NEARUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "1.16200000",
+        "high": "1.16200000",
+        "low": "1.16100000",
+        "close": "1.16200000",
+        "VolumeNEARUSDT": "2633.50000000",
+        "Volume Quote": "1178.38420000"
+    },
+    "AUDIOUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.01716000",
+        "high": "0.01716000",
+        "low": "0.01715000",
+        "close": "0.01715000",
+        "VolumeAUDIOUSDT": "5384.60000000",
+        "Volume Quote": "15.93306000"
+    },
+    "BONKUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.00000578",
+        "high": "0.00000578",
+        "low": "0.00000578",
+        "close": "0.00000578",
+        "VolumeBONKUSDT": "724131.00",
+        "Volume Quote": "4.18547718"
+    },
+    "ZILUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.00374000",
+        "high": "0.00374000",
+        "low": "0.00374000",
+        "close": "0.00374000",
+        "VolumeZILUSDT": "0.00000000",
+        "Volume Quote": "0.00000000"
+    },
+    "SHIBUSDT": {
+        "Open_time": 1774895220000,
+        "Close_time": 1774895279999,
+        "open": "0.00000599",
+        "high": "0.00000599",
+        "low": "0.00000598",
+        "close": "0.00000598",
+        "VolumeSHIBUSDT": "102818338.00",
+        "Volume Quote": "11.39602891"
+    },
+    "DOTUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "1.24500000",
+        "high": "1.24500000",
+        "low": "1.24500000",
+        "close": "1.24500000",
+        "VolumeDOTUSDT": "195.66000000",
+        "Volume Quote": "60.90540000"
+    },
+    "DYDXUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.09440000",
+        "high": "0.09440000",
+        "low": "0.09440000",
+        "close": "0.09440000",
+        "VolumeDYDXUSDT": "0.00000000",
+        "Volume Quote": "0.00000000"
+    },
+    "ADAUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.24390000",
+        "high": "0.24390000",
+        "low": "0.24380000",
+        "close": "0.24390000",
+        "VolumeADAUSDT": "13301.10000000",
+        "Volume Quote": "2595.87648000"
+    },
+    "THETAUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.14800000",
+        "high": "0.14800000",
+        "low": "0.14800000",
+        "close": "0.14800000",
+        "VolumeTHETAUSDT": "0.00000000",
+        "Volume Quote": "0.00000000"
+    },
+    "ICPUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "2.23800000",
+        "high": "2.23800000",
+        "low": "2.23700000",
+        "close": "2.23800000",
+        "VolumeICPUSDT": "108.14000000",
+        "Volume Quote": "169.30470000"
+    },
+    "TIAUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.29450000",
+        "high": "0.29450000",
+        "low": "0.29450000",
+        "close": "0.29450000",
+        "VolumeTIAUSDT": "35.58000000",
+        "Volume Quote": "0.00000000"
+    },
+    "JUPUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.15030000",
+        "high": "0.15030000",
+        "low": "0.15030000",
+        "close": "0.15030000",
+        "VolumeJUPUSDT": "0.00000000",
+        "Volume Quote": "0.00000000"
+    },
+    "UNIUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "3.47300000",
+        "high": "3.47400000",
+        "low": "3.47300000",
+        "close": "3.47400000",
+        "VolumeUNIUSDT": "114.45000000",
+        "Volume Quote": "358.83420000"
+    },
+    "1INCHUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.08800000",
+        "high": "0.08800000",
+        "low": "0.08800000",
+        "close": "0.08800000",
+        "Volume1INCHUSDT": "0.00000000",
+        "Volume Quote": "0.00000000"
+    },
+    "ENAUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.09010000",
+        "high": "0.09010000",
+        "low": "0.08980000",
+        "close": "0.08990000",
+        "VolumeENAUSDT": "526477.91000000",
+        "Volume Quote": "1866.58294700"
+    },
+    "HBARUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.08777000",
+        "high": "0.08777000",
+        "low": "0.08776000",
+        "close": "0.08777000",
+        "VolumeHBARUSDT": "6281.00000000",
+        "Volume Quote": "86.27791000"
+    },
+    "INJUSDT": {
+        "Open_time": 1774895220000,
+        "Close_time": 1774895279999,
+        "open": "2.86600000",
+        "high": "2.86600000",
+        "low": "2.86600000",
+        "close": "2.86600000",
+        "VolumeINJUSDT": "17.83000000",
+        "Volume Quote": "0.00000000"
+    },
+    "GRTUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.02378000",
+        "high": "0.02378000",
+        "low": "0.02378000",
+        "close": "0.02378000",
+        "VolumeGRTUSDT": "1098.00000000",
+        "Volume Quote": "0.00000000"
+    },
+    "CFXUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.05310000",
+        "high": "0.05310000",
+        "low": "0.05310000",
+        "close": "0.05310000",
+        "VolumeCFXUSDT": "1680.00000000",
+        "Volume Quote": "0.00000000"
+    },
+    "SUSHIUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.19340000",
+        "high": "0.19340000",
+        "low": "0.19330000",
+        "close": "0.19330000",
+        "VolumeSUSHIUSDT": "403.40000000",
+        "Volume Quote": "0.00000000"
+    },
+    "APTUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.89600000",
+        "high": "0.89600000",
+        "low": "0.89500000",
+        "close": "0.89600000",
+        "VolumeAPTUSDT": "3514.55000000",
+        "Volume Quote": "531.64986000"
+    },
+    "XTZUSDT": {
+        "Open_time": 1774895220000,
+        "Close_time": 1774895279999,
+        "open": "0.34570000",
+        "high": "0.34570000",
+        "low": "0.34570000",
+        "close": "0.34570000",
+        "VolumeXTZUSDT": "54.00000000",
+        "Volume Quote": "0.00000000"
+    },
+    "ARBUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.09070000",
+        "high": "0.09070000",
+        "low": "0.09070000",
+        "close": "0.09070000",
+        "VolumeARBUSDT": "0.00000000",
+        "Volume Quote": "0.00000000"
+    },
+    "SEIUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.05150000",
+        "high": "0.05150000",
+        "low": "0.05150000",
+        "close": "0.05150000",
+        "VolumeSEIUSDT": "3870.20000000",
+        "Volume Quote": "199.31530000"
+    },
+    "SNXUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.27900000",
+        "high": "0.27900000",
+        "low": "0.27900000",
+        "close": "0.27900000",
+        "VolumeSNXUSDT": "0.00000000",
+        "Volume Quote": "0.00000000"
+    },
+    "CELRUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.00238400",
+        "high": "0.00238400",
+        "low": "0.00238400",
+        "close": "0.00238400",
+        "VolumeCELRUSDT": "0.00000000",
+        "Volume Quote": "0.00000000"
+    },
+    "XECUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.00000664",
+        "high": "0.00000664",
+        "low": "0.00000664",
+        "close": "0.00000664",
+        "VolumeXECUSDT": "230586503.00",
+        "Volume Quote": "535.09437992"
+    },
+    "WLDUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.27260000",
+        "high": "0.27260000",
+        "low": "0.27250000",
+        "close": "0.27250000",
+        "VolumeWLDUSDT": "2057.50000000",
+        "Volume Quote": "532.60125000"
+    },
+    "ATOMUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "1.66800000",
+        "high": "1.66800000",
+        "low": "1.66800000",
+        "close": "1.66800000",
+        "VolumeATOMUSDT": "0.00000000",
+        "Volume Quote": "0.00000000"
+    },
+    "AXSUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "1.12100000",
+        "high": "1.12100000",
+        "low": "1.12100000",
+        "close": "1.12100000",
+        "VolumeAXSUSDT": "3007.02000000",
+        "Volume Quote": "0.00000000"
+    },
+    "STORJUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.08930000",
+        "high": "0.08930000",
+        "low": "0.08930000",
+        "close": "0.08930000",
+        "VolumeSTORJUSDT": "1642.00000000",
+        "Volume Quote": "0.00000000"
+    },
+    "IMXUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.14430000",
+        "high": "0.14430000",
+        "low": "0.14430000",
+        "close": "0.14430000",
+        "VolumeIMXUSDT": "0.00000000",
+        "Volume Quote": "0.00000000"
+    },
+    "ENJUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.02044000",
+        "high": "0.02044000",
+        "low": "0.02044000",
+        "close": "0.02044000",
+        "VolumeENJUSDT": "0.00000000",
+        "Volume Quote": "0.00000000"
+    },
+    "KSMUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "4.12000000",
+        "high": "4.12000000",
+        "low": "4.12000000",
+        "close": "4.12000000",
+        "VolumeKSMUSDT": "0.00000000",
+        "Volume Quote": "0.00000000"
+    },
+    "MANAUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.08170000",
+        "high": "0.08170000",
+        "low": "0.08170000",
+        "close": "0.08170000",
+        "VolumeMANAUSDT": "0.00000000",
+        "Volume Quote": "0.00000000"
+    },
+    "FILUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.81600000",
+        "high": "0.81600000",
+        "low": "0.81600000",
+        "close": "0.81600000",
+        "VolumeFILUSDT": "305.75000000",
+        "Volume Quote": "133.93008000"
+    },
+    "GNOUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "120.39000000",
+        "high": "120.39000000",
+        "low": "120.39000000",
+        "close": "120.39000000",
+        "VolumeGNOUSDT": "0.00000000",
+        "Volume Quote": "0.00000000"
+    },
+    "RUNEUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.39900000",
+        "high": "0.39900000",
+        "low": "0.39900000",
+        "close": "0.39900000",
+        "VolumeRUNEUSDT": "2288.20000000",
+        "Volume Quote": "244.10820000"
+    },
+    "ARKUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.16130000",
+        "high": "0.16130000",
+        "low": "0.16130000",
+        "close": "0.16130000",
+        "VolumeARKUSDT": "0.00000000",
+        "Volume Quote": "0.00000000"
+    },
+    "YFIUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "2436.00000000",
+        "high": "2436.00000000",
+        "low": "2436.00000000",
+        "close": "2436.00000000",
+        "VolumeYFIUSDT": "0.00000000",
+        "Volume Quote": "0.00000000"
+    },
+    "GMXUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "6.24000000",
+        "high": "6.24000000",
+        "low": "6.24000000",
+        "close": "6.24000000",
+        "VolumeGMXUSDT": "0.00000000",
+        "Volume Quote": "0.00000000"
+    },
+    "RVNUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.00580000",
+        "high": "0.00580000",
+        "low": "0.00580000",
+        "close": "0.00580000",
+        "VolumeRVNUSDT": "0.00000000",
+        "Volume Quote": "0.00000000"
+    },
+    "FLUXUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.05170000",
+        "high": "0.05170000",
+        "low": "0.05170000",
+        "close": "0.05170000",
+        "VolumeFLUXUSDT": "0.00000000",
+        "Volume Quote": "0.00000000"
+    },
+    "WIFUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.17600000",
+        "high": "0.17600000",
+        "low": "0.17600000",
+        "close": "0.17600000",
+        "VolumeWIFUSDT": "3500.00000000",
+        "Volume Quote": "0.00000000"
+    },
+    "IOTAUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.05500000",
+        "high": "0.05500000",
+        "low": "0.05500000",
+        "close": "0.05500000",
+        "VolumeIOTAUSDT": "0.00000000",
+        "Volume Quote": "0.00000000"
+    },
+    "LINKUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "8.65000000",
+        "high": "8.66000000",
+        "low": "8.65000000",
+        "close": "8.66000000",
+        "VolumeLINKUSDT": "20.05000000",
+        "Volume Quote": "25.46040000"
+    },
+    "GALAUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.00284000",
+        "high": "0.00284000",
+        "low": "0.00284000",
+        "close": "0.00284000",
+        "VolumeGALAUSDT": "0.00000000",
+        "Volume Quote": "0.00000000"
+    },
+    "STXUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.21920000",
+        "high": "0.21920000",
+        "low": "0.21920000",
+        "close": "0.21920000",
+        "VolumeSTXUSDT": "805.20000000",
+        "Volume Quote": "176.49984000"
+    },
+    "ALGOUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.08210000",
+        "high": "0.08210000",
+        "low": "0.08210000",
+        "close": "0.08210000",
+        "VolumeALGOUSDT": "176.00000000",
+        "Volume Quote": "14.44960000"
+    },
+    "CRVUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.21310000",
+        "high": "0.21310000",
+        "low": "0.21310000",
+        "close": "0.21310000",
+        "VolumeCRVUSDT": "300.00000000",
+        "Volume Quote": "63.93000000"
+    },
+    "KAVAUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.05451000",
+        "high": "0.05451000",
+        "low": "0.05451000",
+        "close": "0.05451000",
+        "VolumeKAVAUSDT": "0.00000000",
+        "Volume Quote": "0.00000000"
+    },
+    "SANDUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.07350000",
+        "high": "0.07350000",
+        "low": "0.07350000",
+        "close": "0.07350000",
+        "VolumeSANDUSDT": "0.00000000",
+        "Volume Quote": "0.00000000"
+    },
+    "ETCUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "8.10000000",
+        "high": "8.10000000",
+        "low": "8.10000000",
+        "close": "8.10000000",
+        "VolumeETCUSDT": "15.12000000",
+        "Volume Quote": "122.47200000"
+    },
+    "PENDLEUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "1.12000000",
+        "high": "1.12000000",
+        "low": "1.12000000",
+        "close": "1.12000000",
+        "VolumePENDLEUSDT": "0.00000000",
+        "Volume Quote": "0.00000000"
+    },
+    "LDOUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.31400000",
+        "high": "0.31400000",
+        "low": "0.31400000",
+        "close": "0.31400000",
+        "VolumeLDOUSDT": "903.85000000",
+        "Volume Quote": "195.80412000"
+    },
+    "LPTUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "2.06100000",
+        "high": "2.06100000",
+        "low": "2.06100000",
+        "close": "2.06100000",
+        "VolumeLPTUSDT": "0.00000000",
+        "Volume Quote": "0.00000000"
+    },
+    "RPLUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "1.67000000",
+        "high": "1.67000000",
+        "low": "1.67000000",
+        "close": "1.67000000",
+        "VolumeRPLUSDT": "0.00000000",
+        "Volume Quote": "0.00000000"
+    },
+    "FLOWUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.02870000",
+        "high": "0.02870000",
+        "low": "0.02868000",
+        "close": "0.02868000",
+        "VolumeFLOWUSDT": "13249.00000000",
+        "Volume Quote": "0.00000000"
+    },
+    "ZRXUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.09960000",
+        "high": "0.09960000",
+        "low": "0.09960000",
+        "close": "0.09960000",
+        "VolumeZRXUSDT": "0.00000000",
+        "Volume Quote": "0.00000000"
+    },
+    "QTUMUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.80300000",
+        "high": "0.80300000",
+        "low": "0.80300000",
+        "close": "0.80300000",
+        "VolumeQTUMUSDT": "0.00000000",
+        "Volume Quote": "0.00000000"
+    },
+    "VETUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.00669100",
+        "high": "0.00669100",
+        "low": "0.00669100",
+        "close": "0.00669100",
+        "VolumeVETUSDT": "0.00000000",
+        "Volume Quote": "0.00000000"
+    },
+    "MINAUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.05310000",
+        "high": "0.05310000",
+        "low": "0.05310000",
+        "close": "0.05310000",
+        "VolumeMINAUSDT": "0.00000000",
+        "Volume Quote": "0.00000000"
+    },
+    "OPUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.10620000",
+        "high": "0.10620000",
+        "low": "0.10610000",
+        "close": "0.10620000",
+        "VolumeOPUSDT": "13978.74000000",
+        "Volume Quote": "1433.53008000"
+    },
+    "PYTHUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.03800000",
+        "high": "0.03800000",
+        "low": "0.03800000",
+        "close": "0.03800000",
+        "VolumePYTHUSDT": "0.00000000",
+        "Volume Quote": "0.00000000"
+    },
+    "IOSTUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.00102700",
+        "high": "0.00102700",
+        "low": "0.00102700",
+        "close": "0.00102700",
+        "VolumeIOSTUSDT": "0.00000000",
+        "Volume Quote": "0.00000000"
+    },
+    "APEUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.08460000",
+        "high": "0.08460000",
+        "low": "0.08460000",
+        "close": "0.08460000",
+        "VolumeAPEUSDT": "8241.85000000",
+        "Volume Quote": "405.43704000"
+    },
+    "BLURUSDT": {
+        "Open_time": 1774895160000,
+        "Close_time": 1774895219999,
+        "open": "0.01709000",
+        "high": "0.01709000",
+        "low": "0.01709000",
+        "close": "0.01709000",
+        "VolumeBLURUSDT": "0.00000000",
+        "Volume Quote": "0.00000000"
+    }
+}
