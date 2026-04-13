@@ -1,27 +1,27 @@
 import numpy as np
 import pandas as pd
-import json
+# import json
 import Database as Db
 
-class Watchlist():
+class Watchlist:
 	def __init__(self):
-		self.Price_list = Db.pull_data() # get webhook data eventually.
+		self.Price_list = Db.pull_price_data() # get webhook data eventually.
 		self.watchlist = {}
 	def create_watchlist(self, name = "New List"):
 		query = input(f"""
-You have created {name}:
+You have created {name.upper()}:
 
-Would you like to add elements to {name}
+Would you like to add elements to {name.upper()}
 (Y/N);
 		""").lower()
 		if (query == "y") | (query == "yes"):
 			self.watchlist.update({
-			name:{}
+			name.upper():{}
 			})
-			self.add_instruments(name)
+			self.add_instruments(name.upper())
 			return self.watchlist
 		else:
-			print(f"No elements are in {name}")
+			print(f"No elements are in {name.upper()}")
 			print("Thanks for running this command")
 			return self.watchlist
 			
@@ -60,6 +60,43 @@ Thanks for using 😊😊
 				query : int(self.Price_list[query]["close"])
 				})
 				return self.watchlist
-
-n_watchlist = Watchlist()
-print(n_watchlist.create_watchlist(name = "Black list"))
+				
+				
+	def remove_instruments(self):
+		query = input('Enter the name of the Watchlist:>> ').upper()
+		if query in self.watchlist:
+			rm_instrument = input(f"""
+The available instruments are: {list(self.watchlist[query].keys())}, 
+Enter X to remove it:: """).upper()
+			if rm_instrument in self.watchlist[query]:
+				del self.watchlist[query][rm_instrument]
+				print(f"{rm_instrument} Removed!!")
+				print(self.watchlist[query])
+				return self.watchlist[query]
+			else:
+				print("This instrument is not found there")
+		elif query not in self.watchlist:
+			print('Watchlist not found!! ')
+			retry = input('Would you like to re-enter the name?? (y/n)')
+			if (retry == "yes") | (retry == 'y'):
+				self.remove_instruments()
+				return self.watchlist
+				
+	def remove_watchlist(self):
+		rm_watchlist = input(f"""
+The available watchlists are: {list(self.watchlist.keys())},
+Enter X to remove it:: """).upper()
+		if rm_watchlist in self.watchlist:
+			del self.watchlist[rm_watchlist]
+			print(f"{rm_watchlist} Removed!!")
+			print(self.watchlist)
+			return self.watchlist
+		elif rm_watchlist not in self.watchlist:
+			print('Watchlist not found!! ')
+			retry = input('Would you like to re-enter the name?? (y/n)')
+			if (retry == "yes") | (retry == 'y'):
+				self.remove_watchlist()
+				return self.watchlist
+			else:
+				print('Thanks 😊😊')
+				return self.watchlist

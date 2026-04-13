@@ -1,7 +1,9 @@
+
 import numpy as np
 import websocket 
 import data_request as dr
-import json 
+import json
+import asyncio
 assets = [
     "BTCUSDT", "ETHUSDT", "BNBUSDT", 
     "XRPUSDT", "ADAUSDT", "DOGEUSDT", 
@@ -52,20 +54,23 @@ assets = [asset.lower() + "@kline_1m" for asset in assets]
 assets= "/".join(assets)    		
 
 socket = f"wss://stream.binance.com:9443/stream?streams={assets}"
-ws = websocket.WebSocketApp(
+	
+def load_price_data(ws):
+	ws.on_open = dr.on_open
+	ws.run_forever()
+# Figure out a way to asynchronously change this element of watchlist and pull data at the same time, so that ase we are pulling data on Watchlist we can be automatically updating price. 	
+		
+def pull_price_data() -> dict:
+	ws = websocket.WebSocketApp(
 		socket, 
 		on_message = dr.on_message,
 		on_error= dr.on_error,
 		on_close= dr.on_close
 )
-	
-def load_data(ws):
-	ws.on_open = dr.on_open
-	ws.run_forever()
-# Figure out a way to asynchronously change this element of watchlist and pull data at the same time, so that ase we are pulling data on Watchlist we can be automatically updating price. 	
-		
-def pull_data():
-	#load_data(ws)		
+	load_price_data(ws)		
 	with open ("response.json", "r") as response:
+		print(response)
 		return json.load(response)
-#load_data(ws)
+		
+def save_watchlist():
+    pass
