@@ -1,0 +1,38 @@
+{
+    "SUIUSDT": {
+        "Date": "2026-04-14",
+        "Entry Time": "17-36-02",
+        "Entry Price": 0.9133,
+        "Holdings": 150.0,
+        "Leverage": 120.0,
+        "Investment_Margin": 1.1416250000000001,
+        "Available Margin": 998.858375
+    },
+    "LTCUSDT": {
+        "Date": "2026-04-14",
+        "Entry Time": "17-36-22",
+        "Entry Price": 54.04,
+        "Holdings": 10.0,
+        "Leverage": 120.0,
+        "Investment_Margin": 4.503333333333333,
+        "Available Margin": 994.3550416666667
+    },
+    "BTCUSDT": {
+        "Date": "2026-04-14",
+        "Entry Time": "17-37-59",
+        "Entry Price": 74068.0,
+        "Holdings": 1.0,
+        "Leverage": 120.0,
+        "Investment_Margin": 617.2333333333333,
+        "Available Margin": 377.12170833333334
+    },
+    "XRPUSDT": {
+        "Date": "2026-04-14",
+        "Entry Time": "17-38-32",
+        "Entry Price": 1.329,
+        "Holdings": 500.0,
+        "Leverage": 120.0,
+        "Investment_Margin": 5.5375,
+        "Available Margin": 371.5842083333333
+    }
+}

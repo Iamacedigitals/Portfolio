@@ -1,6 +1,6 @@
+import websocket 
 import json
 import pandas as pd
-
 
 def on_message (ws, message):
 	response = json.loads(message)
@@ -8,10 +8,10 @@ def on_message (ws, message):
 		response["data"]['s']:{
 		"Open_time":response["data"]['k']["t"],
 		"Close_time":response["data"]['k']["T"],
-		"open":response["data"]['k']["o"],
-		"high":response["data"]['k']["h"],
-		"low":response["data"]['k']["l"],
-		'close':response["data"]['k']["c"],
+		"open":float(response["data"]['k']["o"]),
+		"high":float(response["data"]['k']["h"]),
+		"low": float(response["data"]['k']["l"]),
+		'close':float(response["data"]['k']["c"]),
 	
 	f"""Volume{response["data"]["s"]}""":response["data"]['k']["v"],
 	"Volume Quote":response["data"]['k']["Q"]
@@ -23,15 +23,14 @@ def on_message (ws, message):
 		if response["data"]['s'] not in price_snapshot:
 			with open("response.json", "w") as f:
 				price_snapshot[response["data"]['s']] ={
-					"Open_time":response["data"]['k']["t"],
-					"Close_time":response["data"]['k']["T"],
-					"open":response["data"]['k']["o"],
-					"high":response["data"]['k']["h"],
-					"low":response["data"]['k']["l"],
-					'close':response["data"]['k']["c"],
-				
-				f"""Volume{response["data"]["s"]}""":response["data"]['k']["v"],
-					"Volume Quote":response["data"]['k']["Q"]
+					"Open_time": response["data"]['k']["t"],
+					"Close_time": response["data"]['k']["T"],
+					"open":	float(response["data"]['k']["o"]),
+					"high":	float(response["data"]['k']["h"]),
+					"low":	float(response["data"]['k']["l"]),
+					'close': float(response["data"]['k']["c"]),
+				f"""Volume{response["data"]["s"]}""": response["data"]['k']["v"],
+					"Volume Quote": response["data"]['k']["Q"]
 				}
 
 				json.dump(price_snapshot, f, indent= 4)
@@ -42,6 +41,7 @@ def on_message (ws, message):
 	except:
 		with open("response.json", "w") as price_snapshot:
 			json.dump(data, price_snapshot, indent= 4)
+	ws.close()
 		
 def on_error(ws, error):
     print("Error:", error)
