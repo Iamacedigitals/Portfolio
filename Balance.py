@@ -74,7 +74,7 @@ class Balance:
 				if now.strftime("%Y-%m-%d") not in balance_data:
 					with open("Balance_Data.json", "w") as new_data:
 						balance_data[now.strftime("%Y-%m-%d")] = {
-							now.strftime("%H:%m:%S"):{ # Contains Metadata on time
+							now.strftime("%H:%M:%S"):{ # Contains Metadata on time
 							"Balance": self.Balance,
 							"Amount": amount,
 							"Available Margin": self.margin,
@@ -83,9 +83,9 @@ class Balance:
 					}
 						json.dump(balance_data, new_data, indent = 4)
 					return True
-				elif now.strftime("%H:%m:%S") not in balance_data[now.strftime("%Y-%m-%d")]:
+				elif now.strftime("%H:%M:%S") not in balance_data[now.strftime("%Y-%m-%d")]:
 					with open("Balance_Data.json", "w") as new_data:
-						balance_data[now.strftime("%Y-%m-%d")][now.strftime("%H:%m:%S")]= { 
+						balance_data[now.strftime("%Y-%m-%d")][now.strftime("%H:%M:%S")]= { 
 							# Contains Metadata on time
 							"Balance": self.Balance, 
 							"Amount": amount,
