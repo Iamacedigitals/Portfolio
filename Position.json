@@ -34,5 +34,32 @@
         "Leverage": 120.0,
         "Investment_Margin": 5.5375,
         "Available Margin": 371.5842083333333
+    },
+    "TIAUSDT": {
+        "Date": "2026-04-20",
+        "Entry Time": "14-07-19",
+        "Entry Price": 0.298,
+        "Holdings": 1000.0,
+        "Leverage": 100.0,
+        "Investment_Margin": 2.98,
+        "Available Margin": 367.2752083333333
+    },
+    "TRXUSDT": {
+        "Date": "2026-04-20",
+        "Entry Time": "14-10-22",
+        "Entry Price": 0.3187,
+        "Holdings": 1200.0,
+        "Leverage": 58.0,
+        "Investment_Margin": 6.5937931034482755,
+        "Available Margin": 360.68141522988503
+    },
+    "CELRUSDT": {
+        "Date": "2026-04-20",
+        "Entry Time": "14-13-38",
+        "Entry Price": 0.002391,
+        "Holdings": 1000.0,
+        "Leverage": 100.0,
+        "Investment_Margin": 0.02391,
+        "Available Margin": 360.65750522988503
     }
 }
