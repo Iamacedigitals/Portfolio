@@ -22,6 +22,33 @@ class Position(Balance, Watchlist):
 		self.pnl = {} # Asset name: amount of leverage
 		self.current_price = {} #Asset name: current price
 
+	def price_snapshot(self,instrument_name:str, entry:int, exit=0, current=0)  ->  dict:
+		file_name = "Price_snapshot.json"
+		try:
+			with open(file_name, 'r') as position:
+				position_data = json.load(position)
+				available_open_positions = [open_instruments for open_instruments in position_data]
+				if instrument_name not in position_data:
+
+					with open(file_name , "w") as new_data:
+						position_data[instrument_name] = {
+							"Entry_Price": entry,
+							"Exit_Price": exit,
+							"Current_Price":current
+						}
+
+						json.dump(position_data, new_data, indent= 4)
+				elif position_data[instrument_name]["Current_Price"] == 0:
+					position_data[instrument_name]["Current_Price"] = self.Price_list[instrument_name]["close"]
+				elif  position_data[instrument_name]["Exit_Price"] == 0:
+					position_data[instrument_name]["Exit_Price"] = self.Price_list[instrument_name]['close']
+
+		except FileNotFoundError:
+			with open (file_name, "w") as new_snapshot:
+				json.dump({}, new_snapshot, indent= 4)
+			self.price_snapshot(instrument_name, entry)
+
+
 	def add_position(self):
 		now = datetime.datetime.now()
 		self.current_date = now.strftime("%Y-%m-%d")
@@ -43,6 +70,9 @@ class Position(Balance, Watchlist):
 							self.margin = available_margin
 							self.update_balance_info(amount= investment_margin, action="Open_posiition")
 
+							#Ensures the Entry price snapshot is created 
+							self.price_snapshot(instrument, price)
+
 							if instrument not in positions:
 								with open("Position.json", "w") as new_positions: 
 									positions[instrument] = {
@@ -55,6 +85,10 @@ class Position(Balance, Watchlist):
 										"Available Margin" : available_margin
 									}
 									json.dump(positions , new_positions, indent=4)
+
+							# Takes account of the current price ||| Issue here , Issue Here , Issue here
+							self.price_snapshot(instrument, price)
+
 							# Tries to add more positions
 							more_positions = input("Would You like to add more positions: ")
 
