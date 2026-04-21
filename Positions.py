@@ -32,7 +32,7 @@ class Position(Balance, Watchlist):
 
 					with open(file_name , "w") as new_data:
 						position_data[instrument_name] = {
-							"Entry_Price": entry,
+							"Entry_Price": [entry],
 							"Exit_Price": exit,
 							"Current_Price":current
 						}
@@ -42,12 +42,13 @@ class Position(Balance, Watchlist):
 					position_data[instrument_name]["Current_Price"] = self.Price_list[instrument_name]["close"]
 				elif  position_data[instrument_name]["Exit_Price"] == 0:
 					position_data[instrument_name]["Exit_Price"] = self.Price_list[instrument_name]['close']
-
 		except FileNotFoundError:
 			with open (file_name, "w") as new_snapshot:
 				json.dump({}, new_snapshot, indent= 4)
 			self.price_snapshot(instrument_name, entry)
 
+	def update_snapshot(self):
+		pass
 
 	def add_position(self):
 		now = datetime.datetime.now()
@@ -58,7 +59,8 @@ class Position(Balance, Watchlist):
 			with open("Position.json", "r") as open_positions:
 				instrument  = input(f"You can open {list(self.Price_list.keys())[0:4]}").upper()
 				positions = json.load(open_positions)
-				if instrument in self.Price_list:
+				if instrument not in positions:
+					if instrument in self.Price_list:
 						holdings = float(input(f"How many {instrument} do you want to buy: "))
 						price = self.Price_list[instrument]['close']
 						leverage =float(input("Leverage: "))
@@ -87,7 +89,7 @@ class Position(Balance, Watchlist):
 									json.dump(positions , new_positions, indent=4)
 
 							# Takes account of the current price ||| Issue here , Issue Here , Issue here
-							self.price_snapshot(instrument, price)
+							# self.price_snapshot(instrument, price)
 
 							# Tries to add more positions
 							more_positions = input("Would You like to add more positions: ")
@@ -106,16 +108,69 @@ class Position(Balance, Watchlist):
 								self.add_position()
 							else:
 								print("Thanks")
+					else:
+						print("Instument not found: Enter a valid one: >> ")
+						self.add_position()
 				else:
-					print("Instument not found: Enter a valid one: >> ")
-					self.add_position()
+					holdings = float(input(f"How many {instrument} do you want to buy: "))
+					price = self.Price_list[instrument]['close']
+					leverage =float(input("Leverage: "))
+					investment_margin = (price * holdings)  / leverage
+
+					if investment_margin <= self.Balance:
+							available_margin = self.Balance - investment_margin
+							self.Balance -= investment_margin
+							self.margin = available_margin
+							self.update_balance_info(amount= investment_margin, action="Open_posiition")
+
+					self.modify_positions(instrument=instrument, holdings=holdings, investment_margin=investment_margin)
+
+					more_positions = input("Would You like to add more positions: ")
+
+					if more_positions in ["yes",  "y"]:
+						self.add_position()
+					else:
+						print("Done, You can now check the positions in the menu: ")
 
 		except FileNotFoundError:
 			with open("Position.json", "w") as new_position:
 				json.dump({}, new_position, indent=4)
 			self.add_position()
-	def modify_positions():
-		pass
+
+	def modify_positions(self, instrument, holdings, investment_margin):
+		with open("Position.json", "r") as available_positions :
+			positions = json.load(available_positions)
+
+			if instrument in positions:
+
+				def aggregate_price(sumArr):
+						prices = np.array(sumArr)
+						aggregate = np.mean(prices)
+						return aggregate
+				
+				with open("Positions.json", "w") as update_data:
+				## Note that the entry price needs an aggregation function that helps us to know the aggregate price of an asset if we have multiple positions, 
+				# the entry prices should be stored in price snapshots and then calculated using the appropriate aggregation functions
+				# reverse the idea of appending the prices into the open postions,instead try and update the current entry price with new price that has been aggregated from the price snapshot 
+					positions[instrument]["Entry Price"] = self.Price_list[instrument]["close"]
+					positions[instrument]["Available Margin"] = self.Balance
+					with open('Price_snapshot.json', "r") as read_current_snapshot:
+						current_snapshots = json.load(read_current_snapshot)
+						if instrument in current_snapshots:
+							with open("Price_snapshot", "w") as  update_snapshots:
+								current_snapshots[instrument]["Entry_Price"].append(self.Price_list[instrument]["close"])
+								positions[instrument]["Aggregate"] = aggregate_price(current_snapshots[instrument]["Entry_Price"])
+								json.dump(current_snapshots, update_snapshots, indent=4)
+						else:
+							pass
+					
+					positions[instrument]["Holdings"] += holdings
+					positions[instrument]["Investment_Margin"] += investment_margin
+
+					json.dump(positions, update_data, indent=4)
+			else:
+				self.add_position()
+		
 	def close_positions():
 		pass
 	def check_positions(self):

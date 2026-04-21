@@ -58,5 +58,31 @@
             "Available Margin": 360.65750522988503,
             "Action": "Open_posiition"
         }
+    },
+    "2026-04-21": {
+        "14:59:15": {
+            "Balance": 324.41400522988505,
+            "Amount": 36.243500000000004,
+            "Available Margin": 324.41400522988505,
+            "Action": "Open_posiition"
+        },
+        "16:10:08": {
+            "Balance": 323.65292189655173,
+            "Amount": 0.7610833333333333,
+            "Available Margin": 323.65292189655173,
+            "Action": "Open_posiition"
+        },
+        "16:22:06": {
+            "Balance": 319.1495885632184,
+            "Amount": 4.503333333333333,
+            "Available Margin": 319.1495885632184,
+            "Action": "Open_posiition"
+        },
+        "16:22:30": {
+            "Balance": 316.3808385632184,
+            "Amount": 2.76875,
+            "Available Margin": 316.3808385632184,
+            "Action": "Open_posiition"
+        }
     }
 }
