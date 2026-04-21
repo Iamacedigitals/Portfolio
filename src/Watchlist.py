@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 # import json
-import Database as Db
+import src.Database as Db
 
 class Watchlist:
 	def __init__(self):
