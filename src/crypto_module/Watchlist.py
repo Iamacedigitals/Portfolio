@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 # import json
-import src.Database as Db
+import crypto_module.Database as Db
 
 class Watchlist:
 	def __init__(self):

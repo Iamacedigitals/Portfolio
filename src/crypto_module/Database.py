@@ -1,7 +1,7 @@
 
 import numpy as np
 import websocket 
-import src.data_request as dr
+import crypto_module.data_request as dr
 import json
 import asyncio
 assets = [
