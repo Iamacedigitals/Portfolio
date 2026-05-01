@@ -1,9 +1,9 @@
-import Balance 
+import crypto_module.Balance as Balance 
 import numpy as np
 import pandas as pd
-import Database as db
-from Balance import Balance
-from Watchlist import Watchlist
+import crypto_module.Database as db
+from crypto_module.Balance import Balance
+from crypto_module.Watchlist import Watchlist
 import datetime
 import json
 
