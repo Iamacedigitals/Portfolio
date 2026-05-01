@@ -4,17 +4,17 @@ import pandas as pd
 
 def on_message (ws, message):
 	response = json.loads(message)
+	crypto_pair = response["data"]['s']
 	data =  {
-		response["data"]['s']:{
+		crypto_pair:{
 		"Open_time":response["data"]['k']["t"],
 		"Close_time":response["data"]['k']["T"],
 		"open":float(response["data"]['k']["o"]),
 		"high":float(response["data"]['k']["h"]),
 		"low": float(response["data"]['k']["l"]),
 		'close':float(response["data"]['k']["c"]),
-	
-	f"""Volume{response["data"]["s"]}""":response["data"]['k']["v"],
-	"Volume Quote":response["data"]['k']["Q"]
+		"Volume":response["data"]['k']["v"],
+		"Volume Quote":response["data"]['k']["Q"]
 	}
 }
 	try:
@@ -29,7 +29,7 @@ def on_message (ws, message):
 					"high":	float(response["data"]['k']["h"]),
 					"low":	float(response["data"]['k']["l"]),
 					'close': float(response["data"]['k']["c"]),
-				f"""Volume{response["data"]["s"]}""": response["data"]['k']["v"],
+					"Volume": response["data"]['k']["v"],
 					"Volume Quote": response["data"]['k']["Q"]
 				}
 

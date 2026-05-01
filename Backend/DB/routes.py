@@ -9,7 +9,7 @@ from Backend.DB.models import CryptoResonse
 db_route = APIRouter(prefix="/init db", tags=["Initialize Database"])
 
 
-@db_route.get("/init_db")
+@db_route.post("/init_db")
 async def init_db(crypto_data: Crypto_Response, session: AsyncSession = Depends(get_session)):
     crypto_pair_data = crypto_data
     crypto_records = CryptoResonse(
